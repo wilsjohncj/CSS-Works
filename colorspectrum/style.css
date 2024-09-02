@@ -1,0 +1,30 @@
+.parent{
+    width:75%;
+    height:400px;
+    background-color: black;
+}
+
+.child{
+    width: 125px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px ;
+}
+.parent>:nth-child(1){
+    background-color: grey;
+
+}
+.parent>:nth-child(2){
+    background-color: lightsalmon;
+}
+.parent>:nth-child(3){
+    background-color: green;
+
+}
+.parent>:nth-child(4){
+    background-color: lightgreen;
+}
+.parent>:nth-child(5){
+    background-color: lightcyan;
+}

@@ -1,0 +1,48 @@
+.parent{
+    width: 75%;
+    height: 500px;
+    border: 1px solid green;
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding: 10px;
+}
+
+.child{
+    background-color: beige;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border: 1px solid blanchedalmond;
+}
+
+.parent>:nth-child(1){
+    background-color: green;
+
+}
+
+.parent>:nth-child(2){
+    background-color: azure;
+}
+
+.parent>:nth-child(3){
+    background-color: royalblue;
+
+}
+
+.parent>:nth-child(4){
+    background-color: yellow;
+}
+
+.parent>:nth-child(5){
+    background-color: aqua;
+}
+
+
